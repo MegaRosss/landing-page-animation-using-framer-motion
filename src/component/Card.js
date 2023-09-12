@@ -67,7 +67,7 @@ function Card() {
                 animate={{y:0, opacity:1}}
                 exit={{opacity:0}}
                 transition={{duration:.5, delay:1}}
-            >Save Time Managing Social Media<br/>For Your Business.</motion.h2>
+            >Save Time Managing <br/> Your Own Stress. lets do that for you.</motion.h2>
         </div>
 
 
