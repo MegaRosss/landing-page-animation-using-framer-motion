@@ -6,10 +6,9 @@ import './sass/main.scss';
 
 
 import Header from './component/Header';
-import Card from './component/Card.js';
+import Card from './component/Card';
 // import ServiceSection from './component/card.jsx'
-import Hero from './component/Hero.jsx';
-import { ModalProvider } from 'styled-react-modal';
+import Hero from './component/Hero';
 
 
 import {motion} from 'framer-motion';
@@ -32,7 +31,6 @@ function App() {
   
   return (
     <motion.div initial='initial' animate='animate'>
-    <ModalProvider>
     <Header openModal={open} />
       <Hero />
       <Card />
@@ -43,7 +41,7 @@ function App() {
       }
 
       <ServiceSection /> */}
-    </ModalProvider>
+  
 
 
 
