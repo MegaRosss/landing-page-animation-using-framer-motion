@@ -4,7 +4,7 @@ import './App.scss';
 import './sass/main.scss';
 
 
-import Header from './component/Header.jsx';
+import Header from './component/Header';
 import Card from './component/Card';
 // import ServiceSection from './component/card.jsx'
 import Hero from './component/Hero';
