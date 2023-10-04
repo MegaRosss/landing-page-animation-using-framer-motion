@@ -34,7 +34,7 @@ function Card() {
                     </IconContext.Provider>
                 </motion.span>
                 <h3>Hair cuts<br/>And Hair-styling.</h3>
-                <a href="#">
+                <a href="/">
                     <span>learn more</span>
                     <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
                         <IoChevronForward/>
@@ -49,7 +49,7 @@ function Card() {
                     </IconContext.Provider>
                 </motion.span>
                 <h3>Manicure<br/>And Pedicure's</h3>
-                <a href="#">
+                <a href="/">
                     <span>learn more</span>
                     <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
                         <IoChevronForward/>
@@ -63,7 +63,7 @@ function Card() {
                     </IconContext.Provider>
                 </motion.span>
                 <h3>Facial's<br/>(different variants)</h3>
-                <a href="#">
+                <a href="/">
                     <span>learn more</span>
                     <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
                         <IoChevronForward/>
@@ -77,7 +77,7 @@ function Card() {
                     </IconContext.Provider>
                 </motion.span>
                 <h3>Spa's<br/>And Massage's</h3>
-                <a href="#">
+                <a href="/">
                     <span>learn more</span>
                     <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
                         <IoChevronForward/>
@@ -91,7 +91,7 @@ function Card() {
                     </IconContext.Provider>
                 </motion.span>
                 <h3>Waxing<br/>(Different variants)</h3>
-                <a href="#">
+                <a href="/">
                     <span>learn more</span>
                     <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
                         <IoChevronForward/>
@@ -105,7 +105,7 @@ function Card() {
                     </IconContext.Provider>
                 </motion.span>
                 <h3>Makeup<br/>(& Edges laying)</h3>
-                <a href="#">
+                <a href="/">
                     <span>learn more</span>
                     <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
                         <IoChevronForward/>
@@ -119,7 +119,7 @@ function Card() {
                     </IconContext.Provider>
                 </motion.span>
                 <h3>Hair Coloring<br/>(& Hair Styling)</h3>
-                <a href="#">
+                <a href="/">
                     <span>learn more</span>
                     <IconContext.Provider value={{color:"#14da8f", size:"18px"}}>
                         <IoChevronForward/>
@@ -129,7 +129,7 @@ function Card() {
             <motion.div className="card dark" variants={item}>
                 <img src={process.env.PUBLIC_URL + '/images/line.png'} alt="line" className="line"/>               
                 <h2>+4 <br/>More...</h2>
-                <a href="#">
+                <a href="/">
                     <span>View more...</span>
                     <motion.span className="service_icon" style={{backgroundColor:"#14da8f"}} variants={hoverEffect} whileHover="whileHover" whileTap='whileTap'>
                         <IconContext.Provider value={{color:"#fff", size:"18px"}}>
